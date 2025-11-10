@@ -57,11 +57,24 @@ switch (stock){
 
 }
 // TODO 4: While loop (1 to 10)
-
+let count = 1;
+while (count <= 10){
+    console.log("VALUE: ", count);
+    count++;
+}
 // TODO 5: Do..while loop (1 to 5)
 
 // TODO 6: For loop (1 to 20, print "ten" at 10 and "twenty" at 20)
+for(let count = 1; count <= 20; count++){
+    if(count == 10){
+        console.log("TEN")
+    }   else if(count == 20) {
+            console.log("TWENTY")
+    }   else {
+          console.log("VALUE: ", count);
+    }
 
+}
 // TODO 7: Even/Odd loop (1 to 20)
 
 // 🚀 Stretch Goals
